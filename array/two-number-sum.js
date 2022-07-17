@@ -14,9 +14,9 @@ Sample Output:
 [-1,11]
 */
 
+// O(n) time | O(n) space
 function twoNumberSum(array, targetSum) {
 	// Write your code here.
-
 	let sumPairs = {};
 	for (let i = 0; i < array.length; i++) {
 		let diff = targetSum - array[i];

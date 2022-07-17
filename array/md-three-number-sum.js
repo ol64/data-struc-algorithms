@@ -41,6 +41,3 @@ function threeNumberSum(array, targetSum) {
 
 	return threeSums;
 }
-
-// Do not edit the line below.
-exports.threeNumberSum = threeNumberSum;
